@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href = "{{ url_for('static', filename='base.css')}} ">
+</head>
+<body>
+{% block header %}
+    <div class="top-container">
+        <div class="top">
+            <a href="#"><button class="top-btn" >Авторизация</button></a>
+            <a href="#"><button class="top-btn" >Для слабовидящих</button></a>
+            <div class="text-right">
+                <a href="#"><img src = "{{ url_for('static', filename='телега.png')}}" alt="" width="48px"></a>
+                <a href="#"><img src="{{ url_for('static', filename='ватсап.png')}}" alt="" width="48px"></a>
+                <a href="#"><img src="{{ url_for('static', filename='вк.png')}}" alt="" width="48px"></a>
+                <a href="#"><img src="{{ url_for('static', filename='инста.png')}}" alt="" width="48px"></a>
+            </div>
+        </div>
+    </div>
+    <div class="head-container">
+        <div class="head">
+            <div class="logo-container">
+                <img src="{{ url_for('static', filename='logo.jpg')}}" class="logo" alt="">
+                <h3>ВОЛНА</h3>
+            </div>
+            <div class="logo-description">
+                <h1>ДЕТСКИЙ ОЗДОРОВИТЕЛЬНЫЙ ЦЕНТР </h1>
+            </div>
+        </div>
+    </div>
+    <div class="menu-container">
+        <div class="menu">
+            <a href="/" class="first" id="navigation">ГЛАВНАЯ</a>
+            <a href="/about" id="navigation">О НАС</a>
+            <a href="/parents" id="navigation">РОДИТЕЛЯМ</a>
+            <a href="/child" id="navigation">ДЕТЯМ</a>
+            <a href="/services" id="navigation">ОЗДОРОВЛЕНИЕ</a>
+            <a href="#" id="navigation">ВОЖАТЫМ</a>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+{% endblock %}
+
+</body>
+</html>

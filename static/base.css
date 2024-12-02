@@ -1,0 +1,282 @@
+@font-face {
+  font-family: Montserrat;
+  font-weight: 100;
+  src: url(Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 200;
+  src: url(Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  src: url(Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 300;
+  src: url(Montserrat-SemiBold.ttf);
+}
+
+body {
+  font-family: Montserrat;
+  font-weight: 200;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 1400px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.top-btn {
+  font-family: Montserrat;
+  font-weight: 200;
+  font-size: 14px;
+  padding: 15px 40px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.top-btn:hover {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  transition: 0.3s;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+}
+
+.text-right {
+  text-align: right;
+  flex-grow: 1;
+}
+
+.text-right a {
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.text-right img {
+  transition: 0.3s;
+}
+
+.text-right img:hover {
+  filter: brightness(80%);
+  transition: 0.3s;
+}
+
+
+.head-container {
+  background: linear-gradient(70deg, #7F74FF, #B0A8FF);
+  border-radius: 6px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.head {
+  display: flex;
+  margin: 0 10%;
+  text-align: center;
+  padding: 35px 0;
+}
+
+.logo {
+  border-radius: 100%;
+  width: 81px;
+  height: 81px;
+  margin-right: 51px;
+}
+
+.logo-container h3 {
+  margin: 0 51px 0 0;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+
+.logo-description h1 {
+  font-size: 44px;
+  color: white;
+  margin: 0;
+  padding: 27px 0 27px 51px;
+  text-align: left;
+  border-left: rgb(255, 255, 255) 2px solid;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+.menu a {
+  display: inline-block;
+  margin-left: 50px;
+  color: black;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.first {
+  margin: 0;
+}
+
+#navigation:hover {
+  text-decoration: underline;
+  transition: 0.1s;
+}
+
+
+
+.flex {
+  display: flex;
+}
+
+.pd-0-10 {
+  padding: 0px 10px;
+}
+
+.pd-10 {
+  padding: 10px
+}
+
+.pd-20 {
+  padding: 20px;
+}
+
+.pd-0-20 {
+  padding: 0 20px;
+}
+.width-25 {
+  max-width: 25%;
+}
+
+
+.widget-header {
+  background-color: #303030;
+  color: white;
+  margin: 0;
+  border-radius: 6px 6px 0 0;
+}
+
+.mod-list {
+  padding: 10px;
+  background-color: #ebebeb;
+  margin: 0;
+  border-radius: 0 0 6px 6px;
+}
+
+.nav-item {
+  list-style-type: none;
+  padding: 8px 0px;
+}
+
+.nav-item a {
+  line-height: 20px;
+  color: rgb(0, 0, 0);
+  transition: 0.2s;
+}
+
+.nav-item a:hover {
+  color: blue;
+  transition: 0.2s;
+}
+
+.nav-item::before {
+  content: ">  "
+}
+
+.mg-none {
+  margin: 0;
+}
+
+.content-body {
+  background-color: #ebebeb;
+  border-radius: 0 0 6px 6px;
+}
+
+.content-body p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.logo-box {
+  background-color: #ebebeb;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.parents_container h2 {
+  font-size: 30px;
+  color: #7F74FF;
+}
+
+.parents_container li {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.parents_container p {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.alert-block {
+  padding: 40px 40px 40px 80px;
+  background-color: #303030;
+  color: white;
+  border-radius: 6px;
+  list-style-type: none;
+}
+
+.alert-block li::before {
+  content: "❗❗❗";
+}
+
+.content-block {
+  padding: 20px;
+  background-color: #ebebeb;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+
+.image-container img {
+  width: 450px;
+  height: 250px;
+}
+
+.news-discription-container {
+  padding-left: 30px;
+}
+
+.news-btn {
+  font-family: Montserrat;
+  font-weight: 200;
+  font-size: 14px;
+  padding: 15px 40px;
+  background-color: rgb(42, 42, 42);
+  border: 0px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: 0.3s;
+  color: white;
+}
+
+.news-btn:hover {
+  background-color: #B0A8FF;
+  color: black;
+  transition: 0.3s;
+}
+
+
